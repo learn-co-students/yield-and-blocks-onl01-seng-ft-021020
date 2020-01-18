@@ -13,7 +13,7 @@ A block is a bit of code enclosed in `do`/`end` keywords or curly brackets (`{}`
 Let's take a look at the following example:
 
 ```ruby
-["Tim", "Tom", "Jim"].each do |name|
+[Tim", "Tom", "Jim"].each do |name|
   puts "Hi, #{name}"
 end
 ```
