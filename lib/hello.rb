@@ -1,5 +1,3 @@
-
-
 def hello_t(array)
   if block_given?
     i = 0
@@ -14,11 +12,3 @@ def hello_t(array)
     puts "Hey! No block was given!"
   end
 end
-
-# call your method here!
-
-# hello_t(name) do |name|
-#   if name.start_with?("T")
-#     puts "Hi, #{name}"
-#   end
-# end
